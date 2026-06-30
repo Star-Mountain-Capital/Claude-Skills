@@ -1,6 +1,6 @@
 # SMC Claude Skills Library
 
-**Star Mountain Capital — Curated AI Skills for the Investment & Operations Teams**
+**Star Mountain Capital — Curated AI Skills**
 
 ---
 
@@ -33,7 +33,7 @@ GitHub is a website where files are stored, organized, and shared — think of i
 
 Skills in this library are organized to match:
 - `/skills/chat/` — for **claude.ai** users (no coding required)
-- `/skills/code/` — for **Claude Code** users (technical / FinOps)
+- `/skills/code/` — for **Claude Code** users (technical / Builders)
 - `/skills/shared/` — work in **both** contexts
 
 ---
