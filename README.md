@@ -109,6 +109,12 @@ No coding required. Paste documents, describe your situation, and Claude respond
 | **Deal Memo Writer** | Investment team | Writes and edits Investment Committee memos and credit memos in full PE equity or private credit format. Understands SMC's memo standards throughout. | `curl -o ~/.claude/skills/deal-memo-writer.md https://raw.githubusercontent.com/Star-Mountain-Capital/Claude-Skills/main/skills/chat/deal-memo-writer.md` |
 | **LP Relations** | IR / Investor Relations | Handles LP relations workflows — DDQ responses, LP query drafts, meeting prep and briefings, and communication strategy for institutional investors. | `curl -o ~/.claude/skills/lp-relations.md https://raw.githubusercontent.com/Star-Mountain-Capital/Claude-Skills/main/skills/chat/lp-relations.md` |
 | **Executive Comms** | Leadership / all teams | Drafts internal executive communications — firm-wide announcements, leadership updates, policy memos, board briefings, and sensitive communications like departures. | `curl -o ~/.claude/skills/executive-comms.md https://raw.githubusercontent.com/Star-Mountain-Capital/Claude-Skills/main/skills/chat/executive-comms.md` |
+| **Read PDF** | All teams | Reads, extracts, and analyzes PDF documents — CIMs, LPAs, credit agreements, fund reports, regulatory filings. Provides structured summaries, pulls financial tables, and flags risks. Works with file attachments in claude.ai and pdfplumber/pypdf code patterns in Claude Code. | `curl -o ~/.claude/skills/readpdf.md https://raw.githubusercontent.com/Star-Mountain-Capital/Claude-Skills/main/skills/chat/readpdf.md` |
+| **Picture Generation** | All teams | Generates professional charts, diagrams, org charts, and presentation visuals for SMC use cases — fund performance charts, portfolio composition graphics, process flows, deal funnel maps. Follows SMC brand standards (Navy/Gold palette) for LP-facing and IC materials. | `curl -o ~/.claude/skills/picture-generation.md https://raw.githubusercontent.com/Star-Mountain-Capital/Claude-Skills/main/skills/chat/picture-generation.md` |
+| **PRD Playbook** | Ops / FinOps / builders | Generates complete PRDs for three SMC archetypes: Notion Database Schema PRDs, n8n Workflow Automation PRDs, and AI Agent/Product PRDs. Includes full generation prompts and structured templates for each archetype. | `curl -o ~/.claude/skills/prd-playbook.md https://raw.githubusercontent.com/Star-Mountain-Capital/Claude-Skills/main/skills/chat/prd-playbook.md` |
+| **Skill Creator** | All teams | Meta-skill for creating new Claude Skills for the SMC library. Guides the user through scoping, inputs, outputs, and SMC context questions, then generates a complete, properly formatted SKILL.md ready to push to GitHub. | `curl -o ~/.claude/skills/skill-creator.md https://raw.githubusercontent.com/Star-Mountain-Capital/Claude-Skills/main/skills/chat/skill-creator.md` |
+| **Email Triage** | All teams | Triages and prioritizes inbox snapshots, drafts responses to LP inquiries, deal counterparty emails, portfolio company requests, and internal correspondence. Flags items requiring senior attention or legal/compliance review. Institutional tone throughout. | `curl -o ~/.claude/skills/email-triage.md https://raw.githubusercontent.com/Star-Mountain-Capital/Claude-Skills/main/skills/chat/email-triage.md` |
+| **Presentation Builder** | Investment / IR / ops | Builds structured slide narratives and presentation outlines for IC presentations, LP update decks, board briefings, annual meetings, and team updates. Outputs slide-by-slide narrative frameworks with talking points. Executive-grade, investor-ready tone. | `curl -o ~/.claude/skills/presentation-builder.md https://raw.githubusercontent.com/Star-Mountain-Capital/Claude-Skills/main/skills/chat/presentation-builder.md` |
 
 ---
 
@@ -173,6 +179,24 @@ curl -o ~/.claude/skills/valuation-reviewer.md https://raw.githubusercontent.com
 curl -o ~/.claude/skills/compliance-monitor.md https://raw.githubusercontent.com/Star-Mountain-Capital/Claude-Skills/main/skills/shared/compliance-monitor.md
 curl -o ~/.claude/skills/document-summarizer.md https://raw.githubusercontent.com/Star-Mountain-Capital/Claude-Skills/main/skills/shared/document-summarizer.md
 curl -o ~/.claude/skills/executive-comms.md https://raw.githubusercontent.com/Star-Mountain-Capital/Claude-Skills/main/skills/chat/executive-comms.md
+```
+
+### Everyone Pack — Start Here
+Universal skills useful for every team member, regardless of role.
+```bash
+curl -o ~/.claude/skills/readpdf.md https://raw.githubusercontent.com/Star-Mountain-Capital/Claude-Skills/main/skills/chat/readpdf.md
+curl -o ~/.claude/skills/picture-generation.md https://raw.githubusercontent.com/Star-Mountain-Capital/Claude-Skills/main/skills/chat/picture-generation.md
+curl -o ~/.claude/skills/document-summarizer.md https://raw.githubusercontent.com/Star-Mountain-Capital/Claude-Skills/main/skills/shared/document-summarizer.md
+curl -o ~/.claude/skills/meeting-intelligence.md https://raw.githubusercontent.com/Star-Mountain-Capital/Claude-Skills/main/skills/chat/meeting-intelligence.md
+curl -o ~/.claude/skills/executive-comms.md https://raw.githubusercontent.com/Star-Mountain-Capital/Claude-Skills/main/skills/chat/executive-comms.md
+```
+
+### Builder Pack — Ops, FinOps, and Technical Team
+For team members building workflows, databases, AI agents, or new Claude Skills.
+```bash
+curl -o ~/.claude/skills/prd-playbook.md https://raw.githubusercontent.com/Star-Mountain-Capital/Claude-Skills/main/skills/chat/prd-playbook.md
+curl -o ~/.claude/skills/skill-creator.md https://raw.githubusercontent.com/Star-Mountain-Capital/Claude-Skills/main/skills/chat/skill-creator.md
+curl -o ~/.claude/skills/notion-api-patterns.md https://raw.githubusercontent.com/Star-Mountain-Capital/Claude-Skills/main/skills/code/notion-api-patterns.md
 ```
 
 ---
